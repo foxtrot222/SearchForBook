@@ -1,12 +1,20 @@
 body {
-  background-color: #EEEEEE;
-	font-family: Helvetica, Monospace;
 	text-align: center;
+	background-color: #E1E5EE;
+	color: #0C0A3E;
+	font-family: Tahoma;
+}
+img {
+	max-width: 125px;
+  height: 150px;
 }
 a {
-	color: #41B375;
+	color: #DF2935;
 }
 li {
-  list-style-type: none;
+	list-style-type: none;
+	margin-bottom: 10px;
 }
-
+.searchbox {
+	text-align: left;
+}

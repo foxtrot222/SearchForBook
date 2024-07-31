@@ -1,94 +1,100 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>SearchForBook</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>SearchForBook</h1>
-    <p>
-      SearchForBook is a platform dedicated to helping you find books that are
-      freely accessible, in the public domain, or generously donated online.
-    </p>
-    <script
-      async
-      src="https://cse.google.com/cse.js?cx=16dd93189678f475c"
-    ></script>
-    <div class="gcse-search"></div>
-    <div>
-      <p>
-        Search happens in below listed websites. To add more,
-        <a href="https://github.com/foxtrot222/SearchForBook/issues/new"
-          >Make an issue on GitHub.</a
-        >
-      </p>
-    </div>
-    <div>
-      <ul>
-        <li><a href="https://openlibrary.org">Open Library</a></li>
-        <li><a href="https://archive.org/">Internet Archive</a></li>
-        <li>
-          <a href="https://ethw.org/"
-            >Engineering and Technology History Wiki</a
-          >
-        </li>
-        <li>
-          <a href="https://nap.nationalacademies.org/"
-            >National Academies Press</a
-          >
-        </li>
-        <li>
-          <a href="https://www.e-booksdirectory.com/">E-Books Directory</a>
-        </li>
-        <li>
-          <a href="http://www.digitalbookindex.org/">Digital Book Index</a>
-        </li>
-        <li>
-          <a href="https://escholarship.org/uc/ucpress/"
-            >eScholarship UC Press</a
-          >
-        </li>
-        <li><a href="http://www.freetechbooks.com/">Free Tech Books</a></li>
-        <li><a href="https://www.intechopen.com/">InTechOpen</a></li>
-        <li>
-          <a href="https://archive.sacred-texts.com/">Sacred Texts Archive</a>
-        </li>
-        <li>
-          <a href="https://freecomputerbooks.com/">Free Computer Books</a>
-        </li>
-        <li><a href="https://www.wikibooks.org/">Wikibooks</a></li>
-        <li><a href="https://wikisource.org/">Wikisource</a></li>
-        <li><a href="https://www.authorama.com/">Authorama</a></li>
-        <li>
-          <a href="https://www.goodreads.com/shelf/show/free-ebooks"
-            >Goodreads Free Ebooks</a
-          >
-        </li>
-        <li>
-          <a href="https://open.umn.edu/opentextbooks/">Open Textbooks</a>
-        </li>
-        <li><a href="https://www.doabooks.org/">DOAB Books</a></li>
-        <li>
-          <a href="https://onlinebooks.library.upenn.edu/"
-            >Online Books Library</a
-          >
-        </li>
-        <li>
-          <a href="https://ntrs.nasa.gov/">NASA Technical Reports Server</a>
-        </li>
-        <li>
-          <a href="https://www.sciencebooksonline.info/"
-            >Science Books Online</a
-          >
-        </li>
-        <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
-        <li><a href="https://www.planetebook.com/">Planet eBook</a></li>
-        <li><a href="https://digilibraries.com/">Digilibraries</a></li>
-        <li><a href="https://librivox.org/">LibriVox</a></li>
-        <li><a href="https://www.hathitrust.org/">HathiTrust</a></li>
-        <li><a href="https://standardebooks.org/">Standard Ebooks</a></li>
-        <li><a href="https://www.gutenberg.org/">Project Gutenberg</a></li>
-      </ul>
-    </div>
-    <p>v1.0.0 Made with HTML & CSS & Google.</p>
-  </body>
+    <head>
+        <meta chatset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SearchForBook</title>
+        <link
+            rel="icon"
+            href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Globe_from_De_principiis_astronomiae_et_cosmographiae._1547%2C_with_inscriptions.svg/640px-Globe_from_De_principiis_astronomiae_et_cosmographiae._1547%2C_with_inscriptions.svg.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="description" content="Search for free books" />
+        <meta
+            name="keywords"
+            content="free ebooks, free audiobooks, free online books, download free books, free digital books, free novels, free romance ebooks, free science fiction books, free fantasy books, free mystery books, free historical fiction books, free thriller books, free biographies, free self-help books, free history books, free business books, free travel books, free cooking books, free health books, free textbooks, free academic books, free research papers, free educational books, free study guides, free children's books, free kids' ebooks, free fairy tales, free picture books, free young adult books, free programming books, free engineering books, free medical books, free law books, free finance books, free marketing books, free language books, free English learning books, free Spanish learning books, free French learning books, free German learning books, free DIY books, free craft books, free photography books, free gardening books, free music books, free religious books, free Bible, free spiritual books, free meditation books, free philosophy books, free poetry books, free classic literature, free drama books, free art books, free essays, free science books, free physics books, free chemistry books, free biology books, free astronomy books, free travel guides, free cookbooks, free sports books, free humor books, free self-improvement books"
+        />
+        <meta name="author" content="Tirth Kavathiya" />
+    </head>
+    <body>
+        <div>
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Globe_from_De_principiis_astronomiae_et_cosmographiae._1547%2C_with_inscriptions.svg/640px-Globe_from_De_principiis_astronomiae_et_cosmographiae._1547%2C_with_inscriptions.svg.png"
+                alt="Image didn't load"
+            />
+        </div>
+        <h1>SearchForBook</h1>
+        <div>
+            <p>
+                SearchForBook is a platform dedicated to helping you find books that are freely accessible, in the public domain, or generously donated online.
+            </p>
+        </div>
+        <div class="searchbox">
+            <script async src="https://cse.google.com/cse.js?cx=16dd93189678f475c"></script>
+            <div class="gcse-search"></div>
+        </div>
+        <div>
+            <p>
+                Search happens in below listed websites. To add more,
+                <a href="https://github.com/foxtrot222/SearchForBook/issues/new">Make an issue on GitHub.</a>
+            </p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://openlibrary.org">Open Library</a></li>
+                <li><a href="https://archive.org/">Internet Archive</a></li>
+                <li>
+                    <a href="https://ethw.org/">Engineering and Technology History Wiki</a>
+                </li>
+                <li>
+                    <a href="https://nap.nationalacademies.org/">National Academies Press</a>
+                </li>
+                <li>
+                    <a href="https://www.e-booksdirectory.com/">E-Books Directory</a>
+                </li>
+                <li>
+                    <a href="http://www.digitalbookindex.org/">Digital Book Index</a>
+                </li>
+                <li>
+                    <a href="https://escholarship.org/uc/ucpress/">eScholarship UC Press</a>
+                </li>
+                <li><a href="http://www.freetechbooks.com/">Free Tech Books</a></li>
+                <li><a href="https://www.intechopen.com/">InTechOpen</a></li>
+                <li>
+                    <a href="https://archive.sacred-texts.com/">Sacred Texts Archive</a>
+                </li>
+                <li>
+                    <a href="https://freecomputerbooks.com/">Free Computer Books</a>
+                </li>
+                <li><a href="https://www.wikibooks.org/">Wikibooks</a></li>
+                <li><a href="https://wikisource.org/">Wikisource</a></li>
+                <li><a href="https://www.authorama.com/">Authorama</a></li>
+                <li>
+                    <a href="https://www.goodreads.com/shelf/show/free-ebooks">Goodreads Free Ebooks</a>
+                </li>
+                <li>
+                    <a href="https://open.umn.edu/opentextbooks/">Open Textbooks</a>
+                </li>
+                <li><a href="https://www.doabooks.org/">DOAB Books</a></li>
+                <li>
+                    <a href="https://onlinebooks.library.upenn.edu/">Online Books Library</a>
+                </li>
+                <li>
+                    <a href="https://ntrs.nasa.gov/">NASA Technical Reports Server</a>
+                </li>
+                <li>
+                    <a href="https://www.sciencebooksonline.info/">Science Books Online</a>
+                </li>
+                <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+                <li><a href="https://www.planetebook.com/">Planet eBook</a></li>
+                <li><a href="https://digilibraries.com/">Digilibraries</a></li>
+                <li><a href="https://librivox.org/">LibriVox</a></li>
+                <li><a href="https://www.hathitrust.org/">HathiTrust</a></li>
+                <li><a href="https://standardebooks.org/">Standard Ebooks</a></li>
+                <li><a href="https://www.gutenberg.org/">Project Gutenberg</a></li>
+            </ul>
+        </div>
+        <p>v1.2.0 Made with HTML & CSS & Google.</p>
+    </body>
 </html>
